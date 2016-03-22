@@ -40,6 +40,14 @@ namespace newProblems
                 Console.Clear();
             }
 
+            ShapeShifter shape = new ShapeShifter(5);
+            shape.PrintTriangle();
+            Console.WriteLine(" ");
+            shape.PrintTriangleUpsideDown();
+            Console.WriteLine(" ");
+            shape.PrintTriangleReverse();
+            Console.ReadLine();
+
 
         }
     }
