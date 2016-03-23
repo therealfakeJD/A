@@ -50,7 +50,6 @@ namespace newProblems
             Console.ReadLine();
             */
             InputCheckerProblem inputChecker = new InputCheckerProblem();
-           
             inputChecker.CheckBadWordList();
             Console.ReadLine();
 
