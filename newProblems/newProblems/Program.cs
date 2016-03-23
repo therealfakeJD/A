@@ -11,6 +11,7 @@ namespace newProblems
     {
         static void Main(string[] args)
         {
+            /*
             Problem1 inputString = new Problem1();
             Console.WriteLine(inputString.PrintListLength());
             Console.ReadLine();
@@ -40,12 +41,17 @@ namespace newProblems
                 Console.Clear();
             }
 
-            ShapeShifter shape = new ShapeShifter(5);
+            TriangleProblem shape = new TriangleProblem(5);
             shape.PrintTriangle();
             Console.WriteLine(" ");
             shape.PrintTriangleUpsideDown();
             Console.WriteLine(" ");
             shape.PrintTriangleReverse();
+            Console.ReadLine();
+            */
+            InputCheckerProblem inputChecker = new InputCheckerProblem();
+           
+            inputChecker.CheckBadWordList();
             Console.ReadLine();
 
 

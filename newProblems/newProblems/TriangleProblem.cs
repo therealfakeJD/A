@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace newProblems
 {
-    class ShapeShifter
+    class TriangleProblem
     {
         List<List<string>> shape = new List<List<string>>();
 
         private string dot = ".";
 
-        public ShapeShifter(int rowCount)
+        public TriangleProblem(int rowCount)
         {
 
             for (int outerIndex = 0; outerIndex < rowCount; outerIndex++)
